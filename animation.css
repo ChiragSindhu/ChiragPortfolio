@@ -1,0 +1,49 @@
+#projectMenu:hover > #menuLine {
+    width: 60px;
+    background: white;
+}
+
+
+#projectMenu:hover>#menuNumber {
+    color: white;
+}
+
+#projectMenu:hover>#menuText {
+    color: white;
+}
+
+#workMenu:hover > #menuLine {
+    width: 60px;
+    background: white;
+}
+
+#workMenu:hover>#menuNumber {
+    color: white;
+}
+
+#workMenu:hover>#menuText {
+    color: white;
+}
+
+#skillMenu:hover > #menuLine {
+    width: 60px;
+    background: white;
+}
+
+#skillMenu:hover>#menuNumber {
+    color: white;
+}
+
+#skillMenu:hover>#menuText {
+    color: white;
+}
+
+#cardBox2:hover {
+    transform: scale(1.1);
+    border: 1px solid white;
+}
+
+#cardBox3:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag Sindhu</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="animation.css">
+
+    <script src="script.js"></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <div class="welcome_container">
+            <div id="welcomeText">
+                Hello, I'm Chirag Sindhu.
+            </div>
+            <div id="aboutText">
+                I'm currently pursuing <strong>Bachelor of Technology</strong> specialization in Cloud 
+                from <strong>Manav Rachna University.</strong> I'm 19 years old I live in Faridabad, 
+                from where I did my high school in And my interest includes are Gaming 
+                and travelling. I want to become an <strong>Game Developer</strong> in Ubisoft. I believe 
+                in myself I will give my <strong>100%</strong> to get a job or what I need.
+            </div>
+            <div id="menuSections">
+                <div id="projectMenu" onclick="scrollToProjectMenu(this)">
+                    <span id="menuNumber">01</span>
+                    <span id="menuLine"></span>
+                    <span id="menuText">PROJECTS</span>
+                </div>
+                <div id="workMenu" onclick="scrollToWorkMenu(this)">
+                    <span id="menuNumber">02</span>
+                    <span id="menuLine"></span>
+                    <span id="menuText">WORK EXPERIENCE</span>
+                </div>
+                <div id="skillMenu" onclick="scrollToSkillMenu(this)"> 
+                    <span id="menuNumber">03</span>
+                    <span id="menuLine"></span>
+                    <span id="menuText">SKILLS</span>
+                </div>
+            </div>
+
+            <div id="linkSection">
+                <div id="image">
+                    <img src="image/chiragSindhu.jpg" id="chiragPhoto">
+                </div>
+                <div id="githubLink" onclick="window.open('https://github.com/ChiragSindhu', '_blank');">
+                    <img src="image/githubLogo.png" id="githubLogo">
+                    Github
+                </div>
+                <div id="linkedInLink" onclick="window.open('https://www.linkedin.com/in/chiragsindhu/', '_blank');">
+                    <img src="image/linkedinLogo.png" id="linkedInLogo">
+                    LinkedIn
+                </div>
+                <div id="instagramLink" onclick="window.open('https://www.instagram.com/yup.itschirag/', '_blank');">
+                    <img src="image/instagramLogo.png" id="instagramLogo">
+                    Instagram
+                </div>
+            </div>
+        </div>
+        <div class="SectionsContainer">
+            <div class="projectSection" onmouseleave="resetOpacity()">
+                <div class="cardBox" onclick="window.open('https://github.com/ChiragSindhu/Advance-Reddit-India.git', '_blank');" onmouseover="changeOpacity(this)" onmouseleave="resetTransformScale(this)">
+                    <div id="cardHead">
+                        <span id="cardLanguage">HTML5 | CSS3 | JS | NodeJS | Google Firebase </span><br>
+                        <b>Reddit India | Full Stack Project</b>
+                    </div>
+                    <div id="cardText">An Instagram Clone. It involve feed refresh, Profile section, CURD on posts, Search for Username, Authentication – HTML, CSS, JS, NodeJS, ExpressJS, Google Firebase database and storage.</div>
+                </div>
+
+            <div class="cardBox" onclick="window.open('https://github.com/ChiragSindhu/Web-Development.git', '_blank');" onmouseover="changeOpacity(this)" onmouseleave="resetTransformScale(this)">
+                    <div id="cardHead">
+                        <span id="cardLanguage">HTML5 | CSS3 | JS | NodeJS </span><br>
+                        <b>Weather And Map Service  | API based Web Application</b>
+                    </div>
+                    <div id="cardText">A Map and Weather Web Application, provides real-time satellite image and weather information with Additional functionality – JavaScript, Fetch, API keys.</div>
+                </div>
+
+                <div class="cardBox" onclick="window.open('https://www.instagram.com/iam.whoknocks/', '_blank');" onmouseover="changeOpacity(this)" onmouseleave="resetTransformScale(this)">
+                    <div id="cardHead">
+                        <span id="cardLanguage">C# | Unity Engine </span><br>
+                        <b>Unity Shadow Fight Game | PvP Android game</b>
+                    </div>
+                    <div id="cardText">A Player verses Player game, Worked on 3D models, Characters, Animations, Game Mechanics, Game Physics with More functionality – Unity Game Engine, C#.</div>
+                </div>
+
+                <div class="cardBox" onclick="window.open('https://github.com/ChiragSindhu/Spotify-Clone%20', '_blank');" onmouseover="changeOpacity(this)" onmouseleave="resetTransformScale(this)">
+                    <div id="cardHead">
+                        <span id="cardLanguage">ReactJS | Google Firebase </span><br>
+                        <b>Spotify Player Clone</b>
+                    </div>
+                    <div id="cardText">An spotify player clone. It involve searching song, making Library and editing your fav. playlist.</div>
+                </div>
+            <div class="workExperenceSection">
+                <div id="cardBox2">
+                    <div id="cardHead">
+                        <span id="cardLanguage">Game Developer Intern </span><br>
+                        <b>Arc Math, New Delhi</b>
+                        <span id="cardDates">(Sep `20 – Oct `20)</span>
+                    </div>
+                    <div id="cardText">
+                        <ul style="list-style-type:circle;">
+                            <li>Worked with Arc Math Research team and designed Mathematical and puzzle games for students of primary and secondary grade.</li>
+                            <li>Increased speed and memory efficiency ~20% by implementing code migration.</li>
+                            <li>Product Used – Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, GDevelop.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skillSection">
+                <div id="cardBox3">
+                    <span id="cardBox3Text">Passionate</span>
+                </div>
+                <div id="cardBox3">
+                    <span id="cardBox3Text">Helpful</span>
+                </div>
+                <div id="cardBox3">
+                    <span id="cardBox3Text">Problem Solver</span>
+                </div>
+                <div id="cardBox3">
+                    <span id="cardBox3Text">Communication Skills</span>
+                </div>
+                <div id="cardBox3">
+                    <span id="cardBox3Text">Web Development Skills </span>
+                </div>
+                <div id="cardBox3">
+                    <span id="cardBox3Text">Game Development Skills</span>
+                </div>
+            </div>
+
+            <div id="footer">
+                Designed by <strong>Chirag Sindhu.</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
